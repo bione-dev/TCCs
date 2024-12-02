@@ -25,15 +25,14 @@ Login diferenciado para administradores e usuários comuns.
 Como Usar
 Clone o Repositório:
 
-bash
-Copiar código
+
 git clone https://github.com/SEU_USUARIO/BibliotecaTCCs.git
 Configure o Banco de Dados:
 
 Crie um banco de dados chamado biblioteca no MySQL.
 Configure a tabela tccs com os seguintes campos:
 sql
-Copiar código
+
 CREATE TABLE tccs (
     id INT AUTO_INCREMENT PRIMARY KEY,
     aluno_nome VARCHAR(255) NOT NULL,
@@ -49,8 +48,7 @@ Compile e Execute:
 
 Certifique-se de ter o JavaFX configurado no ambiente.
 Compile e execute o programa:
-bash
-Copiar código
+
 javac TCCApp.java
 java TCCApp
 Estrutura do Projeto
